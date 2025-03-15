@@ -1,0 +1,38 @@
+.tableContainer {
+  margin: 0.5rem !important;
+  max-width: 96% !important;
+  height: auto;
+  overflow: auto !important;
+} 
+.cardContainer {
+  padding: 0.5rem;
+  /* margin-top: 2rem; */
+  border-radius: 0.5rem !important;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+.TableHeadCell {
+  text-transform: uppercase !important;
+  font-weight: bold !important;
+  font-size: 0.75rem !important;
+  color: rgba(0, 0, 0, 0.6) !important;
+  display: flex;
+  align-items: center !important;
+  flex: 1;
+}
+
+.tableBodyCellImg {
+  display: flex;
+  align-items: center;
+  flex: 2;
+}
+
+.book-image {
+  width: 50px;
+  height: 70px;
+  border-radius: 2px;
+  object-fit: cover;
+  margin-right: 16px;
+  box-shadow: 1px 2px 8px 3px rgba(0, 0, 0, 0.3) !important;
+
+}

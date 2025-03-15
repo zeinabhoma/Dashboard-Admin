@@ -1,0 +1,67 @@
+.cardItem{
+    overflow: visible !important;
+    height: 100%;
+    padding: 1rem;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1) !important;
+    border-radius: 12px !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    padding-right: 0 !important;
+    margin-top: 1rem;
+}
+.boxItem{
+  padding: 0.8rem !important;
+}
+.featureTop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    color: rgb(52, 71, 103);
+    box-shadow: none;
+    padding-bottom: 1rem;
+
+}
+
+.featureIconSpan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    margin-top: -3.5rem;
+    color: white;
+    border-radius: 0.75rem;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.featureIcon{
+    user-select: none;
+    width: 1.5em;
+    height: 1.5em;
+    flex-shrink: 0;
+}
+
+.featureDir{
+    /* direction: rtl; */
+    align-self: flex-end;
+    text-align: end;
+}
+
+.featureTitle{
+    font-size: 0.875rem !important;
+    font-weight: 300 !important;
+    color: rgb(123, 128, 154);
+    text-transform: capitalize;
+}
+
+.featureNum{
+    font-size: 1.5rem !important;
+    font-weight: 700 !important;
+    color: rgb(52, 71, 103);
+}
+
+.featureBottom{
+    font-size: 0.875rem !important;
+    color: rgb(123, 128, 154) !important;
+    padding: 0 !important;
+}

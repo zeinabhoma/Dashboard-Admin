@@ -1,0 +1,7 @@
+.cardContainer {
+    padding: 0.5rem;
+    /* margin-top: 2rem; */
+    border-radius: 0.5rem !important;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1) !important;
+    min-width: 100%;
+  }
