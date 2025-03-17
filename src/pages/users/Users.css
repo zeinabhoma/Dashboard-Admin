@@ -19,13 +19,15 @@
     margin-top: 0.4rem;
     border-radius: 8px;
     background-color: #ffffff !important;
+    color: rgba(75, 181, 67);
+    border-color:rgba(75, 181, 67) ;
   box-shadow: 0px 2px 5px rgba(75, 181, 67, 0.4) !important;
 }
-.editBtn:hover{
+/* .editBtn:hover{
     background-color: rgb(75, 181, 67) !important;
     color: #ffffff;
     transition: 700ms !important;
-}
+} */
 
 .modalBox{
     position: absolute;

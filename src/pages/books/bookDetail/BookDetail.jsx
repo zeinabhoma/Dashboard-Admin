@@ -155,22 +155,30 @@ export default function BookDetail() {
               Edit Book
             </Typography>
             {book && (
-              <Box display="flex" flexDirection="column" gap={2}>
+              <Box  gap={2}
+              sx={{
+                flexGrow: "noWrap",
+              }}>
                 <TextField
+                margin="normal"
                   required
                   id="outlined-required"
                   label="Book"
                   defaultValue={book.book}
                   onChange={(e) => setBook({ ...book, book: e.target.value })}
+                  fullWidth
                 />
                 <TextField
+                margin="normal"
                   required
                   id="outlined-required"
                   label="Author"
                   defaultValue={book.author}
                   onChange={(e) => setBook({ ...book, author: e.target.value })}
+                  fullWidth
                 />
                 <TextField
+                sx={{ minWidth: "25ch", width: "30ch", margin: "1rem" }}
                   required
                   id="outlined-required"
                   label="Sales"
@@ -178,6 +186,7 @@ export default function BookDetail() {
                   onChange={(e) => setBook({ ...book, sales: e.target.value })}
                 />
                 <TextField
+                sx={{ minWidth: "25ch", width: "30ch", margin: "1rem" }}
                   required
                   id="outlined-required"
                   label="Price"
@@ -185,8 +194,10 @@ export default function BookDetail() {
                   onChange={(e) => setBook({ ...book, price: e.target.value })}
                 />
                 <TextField
+                margin="normal"
                   id="outlined-multiline-static"
                   label="Description"
+                  fullWidth
                   multiline
                   rows={4}
                   defaultValue={book.description}
