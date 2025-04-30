@@ -20,8 +20,20 @@ You can view statistics and charts, and manage users and books using Firebase.
 
 🔗 [Live Demo](https://dashboard-gules-mu.vercel.app/)
 
-<!-- add a screenshot here later -->
-<!-- ![Dashboard Preview](link-to-screenshot) -->
+##  Screenshots
+
+###  Dashboard Overview
+![Dashboard](https://github.com/user-attachments/assets/15e14675-faaf-4b50-a2eb-3eaa99763766)
+
+### 👥 User Management
+![Users](https://github.com/user-attachments/assets/2e2702f8-173c-44f9-8e98-7572f99d8db3)
+
+### 📚 Book Management
+![Books](https://github.com/user-attachments/assets/81989908-4917-40ec-840f-76109c50aa29)
+
+### View Details Book 
+![Form](https://github.com/user-attachments/assets/8d45b73b-e040-431b-9994-132b598b6648)
+
 
 ---
 
