@@ -18,7 +18,7 @@ You can view statistics and charts, and manage users and books using Firebase.
 
 ##  Demo
 
-🔗 [Live Demo](https://dashboard-gules-mu.vercel.app/)
+🔗 [Live Demo](https://dashboard-gules-mu.vercel.app/) Please use VPN
 
 ##  Screenshots
 
