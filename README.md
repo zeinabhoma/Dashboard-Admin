@@ -72,5 +72,5 @@ npm start
 
 ##  Developer
 
-[Zeinab Homa](https://github.com/zeinabhoma)
+[Zeinab Homami](https://github.com/zeinabhoma)
 
